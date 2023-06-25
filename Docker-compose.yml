@@ -1,0 +1,22 @@
+version: "3"
+services:
+  train:
+    image: vishwakarkalle/ phonepaytrain:v1
+    ports:
+      - "8000:80"
+    volumes:
+      - "trainvol"
+
+  movie:
+    image: vishwakarkalle/ phonepaymovie:v1
+    ports:
+      - "8001:80"
+    volumes:
+      - "movievol"
+
+  cricket:
+    image: vishwakarkalle/ phonepaymetro:v1
+    ports:
+      - "8002:80"
+    volumes:
+      - "cricvol"
