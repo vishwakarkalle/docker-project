@@ -1,21 +1,21 @@
 version: "3"
 services:
   train:
-    image: vishwakarkalle/ phonepaytrain:v1
+    image: vishwakarkalle/phonepaytrain:v1
     ports:
       - "8000:80"
     volumes:
       - "trainvol"
 
   movie:
-    image: vishwakarkalle/ phonepaymovie:v1
+    image: vishwakarkalle/phonepaymovie:v1
     ports:
       - "8001:80"
     volumes:
       - "movievol"
 
   metro:
-    image: vishwakarkalle/ phonepaymetro:v1
+    image: vishwakarkalle/phonepaymetro:v1
     ports:
       - "8002:80"
     volumes:
