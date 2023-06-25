@@ -14,7 +14,7 @@ services:
     volumes:
       - "movievol"
 
-  cricket:
+  metro:
     image: vishwakarkalle/ phonepaymetro:v1
     ports:
       - "8002:80"
