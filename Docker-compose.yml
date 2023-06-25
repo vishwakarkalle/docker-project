@@ -19,4 +19,4 @@ services:
     ports:
       - "8002:80"
     volumes:
-      - "cricvol"
+      - "metrovol"
